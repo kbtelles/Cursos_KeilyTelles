@@ -1,0 +1,72 @@
+/*Sirve para colocarle color al fondo*/
+.fondo{
+    background-color: #dbdfdd ;
+}
+
+/*Propiedades de la seccion general*/
+.seccion_general {
+    margin: auto;
+    width: 37.5rem;
+    height: auto;
+}
+
+/*Propiedades de la etiqueta que abarca el contenido de la pag*/
+.logo{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 100%;
+    margin: auto;
+    margin-top: 8rem;
+}
+
+/*Propiedades de la imagen (logo)*/
+.logo img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%
+
+    object-fit cover;
+}
+
+/*Propiedades del boton en donde se escribe el usuario*/
+.user{
+    width: 100%;
+    height: 2.5rem;
+    background-color: #dbdfdd ;
+    margin: 6rem 0 0 0;
+    border:none;
+    border-bottom:1px solid rgb(114, 109, 109);
+}
+
+/*Propiedades del boton en donde se escribe la contraseña*/
+.password{
+    width: 100%;
+    height: 2.5rem;
+    background-color: #dbdfdd ;
+    margin: 4rem 0 0 0;
+    border:none;
+    border-bottom:1px solid rgb(114, 109, 109);
+}
+
+/*Propiedades del texto que esta abajo de los botones*/
+.textabajo{
+    width: 30rem;
+    height: 8.5rem;
+    color: rgb(117, 111, 111);
+    padding: 2rem 0 0 6.5rem ;
+}
+
+/*Propiedades del boton que nos dirije a la pagina de catalogo*/
+.boton {
+    width: 100%;
+    height: 4rem;
+    background-color: #acb3b0; 
+    border: none;
+    border-radius:2rem 2rem 2rem 2rem;
+    color: white;
+    padding: 1rem 0 1rem 3rem;
+    font-size: 20px;
+}
+
+
+

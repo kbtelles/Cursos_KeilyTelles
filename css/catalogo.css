@@ -1,0 +1,433 @@
+/*Propiedades de la pag */
+.pag{
+    margin: auto;
+    width: 37.5rem;
+    height: auto;
+}
+
+/*Propiedades del encabezado*/
+.arriba {
+    background-color:rgb(236, 232, 232);
+    width: 100%;
+    height: 5rem;
+    margin: auto;
+    display:flex;/*Alineación de bloques hijos*/
+    flex-direction:row;
+}
+
+/*Texto 1 (HIJO)*/
+.one {
+    color: rgb(0, 0, 0);
+    padding: 1.5rem 0 0 14rem;
+    font-size: 18px;
+    display:flex;
+    flex-direction: column;
+}
+
+/*Texto 2 (HIJO)*/
+.two {
+    color: rgb(0, 0, 0);
+    padding: 1.5rem 0 0 10rem;
+    font-size: 18px;
+    display:flex;
+    flex-direction: column;
+}
+
+/*Primer cuadro*/
+.primero {
+    width: 37.3rem;
+    height: 17rem;
+    border-bottom: rgb(138, 133, 133) 3px solid;
+    display:flex;/*Alineación de bloques hijos*/
+    flex-direction:row;
+}
+
+/*Primer cuadro (img)*/
+.oneimg {
+    width: 18rem;
+    height: 13rem;
+    margin: 2rem 2rem 2rem 2rem;
+    background-color: blueviolet;
+    display:flex;
+    flex-direction: column;
+}
+
+/*Texto */
+.onetext{
+    color: rgb(36, 35, 35);
+    font-size: 16px;
+    margin: 2rem 2rem 0 0;
+    display:flex;
+    flex-direction: column
+}
+
+/*Texto de by*/
+.by{
+    color: rgb(107, 103, 103);
+    font-size: 15px;
+    display:flex;
+    flex-direction: column
+}
+
+/*Boton del primer cuadrado*/
+.boton1{
+    width: 40%;
+    height: 2.5rem;
+    background-color: #515251; 
+    border: none;
+    border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+    color: white;
+    margin: 2rem 0 1rem 0;
+    font-size: 12px;
+}
+
+/*Parte de abajo de la primera parte*/
+.ult1{
+    display:flex;/*Alineación de bloques hijos*/
+    flex-direction:row;
+}
+
+/*Img de comentario*/
+.imguno {
+    width: 2.5rem;
+    height: 2.5rem;
+    display:flex;
+    flex-direction: column
+}
+
+/*Texto de comentarios*/
+.comment1 {
+    color: rgb(107, 103, 103);
+    font-size: 15px;
+    margin: 0.5rem 0 0 1.5rem;
+    display:flex;
+    flex-direction: column
+}
+
+/******************************************************/
+
+/*Segundo cuadrado*/
+.segundo{
+    width: 37.3rem;
+    height: 17rem;
+    border-bottom: rgb(138, 133, 133) 3px solid;
+    display:flex;/*Alineación de bloques hijos*/
+    flex-direction:row;
+}
+
+/*Segundo cuadrado (img)*/
+.twoimg{
+    width: 18rem;
+    height: 13rem;
+    margin: 2rem 2rem 2rem 2rem;
+    background-color: blueviolet;
+    display:flex;
+    flex-direction: column;
+}
+
+/*Texto*/
+.twotext{
+    color: rgb(36, 35, 35);
+    font-size: 16px;
+    margin: 2rem 2rem 0 0;
+    display:flex;
+    flex-direction: column
+}
+
+/*Texto de by*/
+.by2 {
+    color: rgb(107, 103, 103);
+    font-size: 15px;
+    display:flex;
+    flex-direction: column
+}
+
+/*Seccion de los botones*/
+.botones{
+    display:flex;/*Alineación de bloques hijos*/
+    flex-direction:row;
+}
+
+/*Primer boton*/
+.boton2{
+    width: 7rem;
+    height: 2.5rem;
+    background-color: #515251; 
+    border: none;
+    border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+    color: white;
+    margin: 2rem 0 1rem 0;
+    font-size: 12px;
+}
+
+/*Segundo boton*/
+.boton3{
+    width: 7rem;
+    height: 2.5rem;
+    background-color: #515251; 
+    border: none;
+    border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+    margin: 2rem 0 0 1rem;
+    color: white;
+    font-size: 12px;
+}
+
+/*Seccion de abajo del segundo cuadradi*/
+.ult2{
+    display:flex;/*Alineación de bloques hijos*/
+    flex-direction:row;
+}
+
+/*Img de comentario*/
+.imgdos{
+    width: 2.5rem;
+    height: 2.5rem;
+    display:flex;
+    flex-direction: column
+}
+
+/*Texto de comentario*/
+.comment2 {
+    color: rgb(107, 103, 103);
+    font-size: 15px;
+    margin: 0.5rem 0 0 1.5rem;
+    display:flex;
+    flex-direction: column
+}
+
+/************************************************************/
+/*Tercer cuadrado*/
+.tercera {
+    width: 37.3rem;
+    height: 17rem;
+    border-bottom: rgb(138, 133, 133) 3px solid;
+    display:flex;/*Alineación de bloques hijos*/
+    flex-direction:row;
+}
+
+/*Tercer cuadrado (img)*/
+.threeimg{
+    width: 18rem;
+    height: 13rem;
+    margin: 2rem 2rem 2rem 2rem;
+    background-color: blueviolet;
+    display:flex;
+    flex-direction: column;
+}
+
+/*Texto*/
+.threetext{
+    color: rgb(36, 35, 35);
+    font-size: 16px;
+    margin: 2rem 2rem 0 0;
+    display:flex;
+    flex-direction: column
+}
+
+/*Texto de by*/
+.by3{
+    color: rgb(107, 103, 103);
+    font-size: 15px;
+    display:flex;
+    flex-direction: column
+}
+
+/*Sección de botones*/
+.botones1{
+    display:flex;/*Alineación de bloques hijos*/
+    flex-direction:row;
+}
+
+/*Primer boton*/
+.boton03{
+    width: 7rem;
+    height: 2.5rem;
+    background-color: #515251; 
+    border: none;
+    border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+    color: white;
+    margin: 2rem 0 1rem 0;
+    font-size: 12px;
+}
+
+/*Segundo boton*/
+.boton01{
+    width: 7rem;
+    height: 2.5rem;
+    background-color: #515251; 
+    border: none;
+    border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+    margin: 2rem 0 0 1rem;
+    color: white;
+    font-size: 12px;
+}
+
+/*Sección de abajo del tercer cuadrado*/
+.ult3{
+    display:flex;/*Alineación de bloques hijos*/
+    flex-direction:row;
+}
+
+/*Img de comentario*/
+.imgthree{
+    width: 2.5rem;
+    height: 2.5rem;
+    display:flex;
+    flex-direction: column
+}
+
+/*Texto de comentarios*/
+.comment3{
+    color: rgb(107, 103, 103);
+    font-size: 15px;
+    margin: 0.5rem 0 0 1.5rem;
+    display:flex;
+    flex-direction: column
+}
+
+/***********************************************************/
+
+/*Ultimo cuadrado*/
+.cuarta {
+    width: 37.3rem;
+    height: 22.5rem;
+    display:flex;/*Alineación de bloques hijos*/
+    flex-direction:row;
+}
+
+/*Ultimo cuadro (img)*/
+.fourimg{
+    width: 18rem;
+    height: 13rem;
+    margin: 2rem 2rem 2rem 2rem;
+    background-color: blueviolet;
+    display:flex;
+    flex-direction: column;
+}
+
+/*Texto*/
+.fourtext{
+    color: rgb(36, 35, 35);
+    font-size: 16px;
+    margin: 2rem 2rem 0 0;
+    display:flex;
+    flex-direction: column
+}
+
+/*Texto de by*/
+.by4{
+    color: rgb(107, 103, 103);
+    font-size: 15px;
+    display:flex;
+    flex-direction: column
+}
+
+/*Seccion de botones*/
+.botones2{
+    display:flex;/*Alineación de bloques hijos*/
+    flex-direction:row;
+}
+
+/*Primer boton*/
+.boton02{
+    width: 7rem;
+    height: 2.5rem;
+    background-color: #515251; 
+    border: none;
+    border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+    color: white;
+    margin: 2rem 0 1rem 0;
+    font-size: 12px;
+}
+
+/*Segundo boton*/
+.boton00{
+    width: 7rem;
+    height: 2.5rem;
+    background-color: #515251; 
+    border: none;
+    border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+    margin: 2rem 0 0 1rem;
+    color: white;
+    font-size: 12px;
+}
+
+/*Parte de abajo del ultimo cuadrado*/
+.ult4{
+    display:flex;/*Alineación de bloques hijos*/
+    flex-direction:row;
+}
+
+/*Img de comentario*/
+.imgfour{
+    width: 2.5rem;
+    height: 2.5rem;
+    display:flex;
+    flex-direction: column
+}
+
+/*Texto de comentarios*/
+.comment4{
+    color: rgb(107, 103, 103);
+    font-size: 15px;
+    margin: 0.5rem 0 0 1.5rem;
+    display:flex;
+    flex-direction: column
+}
+
+/******************************************************/
+/*Sección del pie de pag*/
+.pie{
+    background-color: beige;
+    display:flex;/*Alineación de bloques hijos*/
+    flex-direction:row;
+    position:fixed;
+    z-index: 2000;
+    bottom: 0;
+}
+
+/*Primer icono*/
+.icon1{
+    width: 3rem;
+    height: 3rem;
+    margin: 2rem 2.5rem 2rem 2rem;
+    display:flex;
+    flex-direction: column
+    
+}
+
+/*segundo icono*/
+.icon2{
+    width: 3rem;
+    height: 3rem;
+    margin: 2rem 2rem 2rem 2rem;
+    display:flex;
+    flex-direction: column
+}
+
+/*Tercer icono*/
+.icon3{
+    width: 3rem;
+    height: 3rem;
+    margin: 2rem 2rem 2rem 2rem;
+    display:flex;
+    flex-direction: column
+}
+
+/*Cuarto icono*/
+.icon4{
+    width: 3rem;
+    height: 3rem;
+    margin: 2rem 3rem 2rem 2rem;
+    display:flex;
+    flex-direction: column
+}
+
+/*Quinto icono*/
+.icon5{
+    width: 3rem;
+    height: 3rem;
+    margin: 2rem 3rem 2rem 2rem;
+    display:flex;
+    flex-direction: column
+}
